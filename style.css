@@ -55,3 +55,89 @@ nav .nav-derecha img{
     height: 35px;
 
 }
+
+main{
+    text-align: center;
+    margin-top: 250px;
+    
+}
+
+main .main-logo img{
+    width: 300px;
+}
+main .main-logo{
+    width: 530px;
+    margin:0 auto;
+    margin-bottom: 35px;
+    
+}
+
+main  .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .conteiner-input{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(250, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main  .main-input input{
+    width: 420px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+
+main .conteiner-input:hover{
+    box-shadow: 0 1px 6px 0 red;
+    border-color: coral;
+}
+
+main .main-input .icon-search{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPuBfJlcSs4GaIOb_HF7O1RDHoTcXdc0lLOQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+
+main .main-input .icon-micro{
+    background-image: url(https://image.flaticon.com/icons/png/512/88/88634.png);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+
+main .main_buttons div{
+    display: inline-block;
+}
+
+main .main_buttons button{
+    height: 35px;
+    background-color: rgba(219, 206, 206, 0.89);
+    border: 0;
+    font-size: 14px;
+    color: rgba(29, 26, 26, 0.89)
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main_buttons button:hover{
+    border: 1px solid rgba(218, 19, 19, 0.507);
+    box-shadow:0 1px 1px black;
+}
